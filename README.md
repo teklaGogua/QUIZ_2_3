@@ -33,13 +33,13 @@ index = n + (n - 1) = 2n - 1
 
 ---
 
-## 3. Expected Output  
+## Expected Output  
 
 Below is a sample output when running the program with the provided lists:
 
-list1 (integers): [3, 2, 3, 9, 2, 3, 8, 5, 3, 5, 2, 3, 6]
-list2 (strings): [2tpA, 9N60w, DFw, mO9g6, P2WD, 6DRX2, RTVOb, RHOY, Ct2, KRbtu, Ym5Yu, MW9, 5PPzD, kem1C, hmWJ, 9XTEQ, 12x, Qzo8]
-list3 (result): [mO9g6, DFw, mO9g6, Qzo8, DFw, mO9g6, Ym5Yu, 6DRX2, mO9g6, 6DRX2, DFw, mO9g6, RTVOb]
+- `list1 (integers)`: [3, 2, 3, 9, 2, 3, 8, 5, 3, 5, 2, 3, 6]
+- `list2 (strings)`: [2tpA, 9N60w, DFw, mO9g6, P2WD, 6DRX2, RTVOb, RHOY, Ct2, KRbtu, Ym5Yu, MW9, 5PPzD, kem1C, hmWJ, 9XTEQ, 12x, Qzo8]
+- `list3 (result)`: [mO9g6, DFw, mO9g6, Qzo8, DFw, mO9g6, Ym5Yu, 6DRX2, mO9g6, 6DRX2, DFw, mO9g6, RTVOb]
 
 ---
 
@@ -48,5 +48,5 @@ list3 (result): [mO9g6, DFw, mO9g6, Qzo8, DFw, mO9g6, Ym5Yu, 6DRX2, mO9g6, 6DRX2
 - The program includes bounds checking to avoid IndexOutOfBoundsException.
 Warning: Calculated index 17 is out of bounds for list2 (size: 18)
 - For any invalid index, it prints a warning message like:
-Warning: Calculated index X is out of bounds for list2 (size: Y)
+`Warning: Calculated index X is out of bounds for list2 (size: Y)`
 - Invalid indices are skipped, ensuring the program runs smoothly even with irregular inputs.
