@@ -33,7 +33,7 @@ index = n + (n - 1) = 2n - 1
 
 ---
 
-## 3. Expected Output  
+## Expected Output  
 
 Below is a sample output when running the program with the provided lists:
 
